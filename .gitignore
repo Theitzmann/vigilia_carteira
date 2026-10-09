@@ -1,0 +1,47 @@
+# Ambientes virtuais
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# Caches e artefatos Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+
+# Configuração privada; exemplos devem ser livres de segredos
+.env
+.env.*
+!.env.example
+
+# SQLite e arquivos auxiliares
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Logs e backups
+*.log
+*.log.*
+logs/
+*.bak
+*.backup
+*.old
+*~
+backup/
+backups/
+
+# Dados pessoais e financeiros privados
+/data/
